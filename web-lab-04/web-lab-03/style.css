@@ -1,0 +1,15 @@
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  border-radius: 50%;
+  transition: all 2s;
+}
+
+img:hover {
+  transform: skew(45deg) scale(2);
+}
